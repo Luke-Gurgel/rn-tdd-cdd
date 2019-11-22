@@ -1,0 +1,55 @@
+import {
+  NativeSyntheticEvent,
+  GestureResponderEvent,
+  TextInputFocusEventData,
+} from 'react-native'
+
+export const nativeSyntheticEvent: NativeSyntheticEvent<TextInputFocusEventData> = {
+  type: '',
+  target: 1,
+  timeStamp: 1,
+  eventPhase: 1,
+  bubbles: false,
+  isTrusted: true,
+  currentTarget: 1,
+  cancelable: false,
+  defaultPrevented: true,
+  nativeEvent: {
+    text: '',
+    target: 1,
+    eventCount: 1,
+  },
+  persist: () => {},
+  stopPropagation: () => {},
+  preventDefault: () => true,
+  isDefaultPrevented: () => true,
+  isPropagationStopped: () => true,
+}
+
+export const gestureResponderEvent: GestureResponderEvent = {
+  type: '',
+  target: 1,
+  timeStamp: 1,
+  eventPhase: 1,
+  bubbles: false,
+  isTrusted: true,
+  currentTarget: 1,
+  cancelable: false,
+  defaultPrevented: true,
+  nativeEvent: {
+    target: '',
+    changedTouches: [],
+    identifier: '',
+    locationX: 1,
+    locationY: 1,
+    pageX: 1,
+    pageY: 1,
+    timestamp: 1,
+    touches: [],
+  },
+  persist: () => {},
+  stopPropagation: () => {},
+  preventDefault: () => true,
+  isDefaultPrevented: () => true,
+  isPropagationStopped: () => true,
+}

@@ -1,0 +1,343 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductListUI component renders a grid of products if product list is not empty 1`] = `
+<View
+  collapsable={true}
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#F5F5F5",
+        "flex": 1,
+        "paddingHorizontal": 20,
+      }
+    }
+  >
+    <ScrollView
+      data={
+        Array [
+          Array [
+            Object {
+              "price": 100,
+              "title": "Shoes",
+            },
+            Object {
+              "price": 10,
+              "title": "Shoes",
+            },
+            Object {
+              "price": 20,
+              "title": "Shoes",
+            },
+            Object {
+              "price": 53,
+              "title": "Electric scooter by Movio",
+            },
+          ],
+        ]
+      }
+      disableVirtualization={false}
+      horizontal={false}
+      initialNumToRender={10}
+      maxToRenderPerBatch={10}
+      numColumns={1}
+      onEndReachedThreshold={2}
+      removeClippedSubviews={false}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      style={
+        Array [
+          Object {
+            "paddingTop": 10,
+          },
+          Object {
+            "flex": 1,
+            "marginTop": 20,
+          },
+        ]
+      }
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View
+        style={null}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "paddingBottom": 10,
+                "paddingLeft": 10,
+              },
+              Object {
+                "marginBottom": 10,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "column",
+                  "justifyContent": "center",
+                  "marginRight": 10,
+                  "width": 138,
+                },
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+              ]
+            }
+          >
+            <TouchableOpacity
+              activeOpacity={0.7}
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "backgroundColor": "#FFF",
+                  "borderRadius": 6,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 15,
+                  "paddingVertical": 15,
+                  "width": 140,
+                }
+              }
+            >
+              <Text
+                ellipsizeMode="tail"
+                numberOfLines={1}
+                style={
+                  Object {
+                    "fontSize": 17,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Shoes
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "marginVertical": 4,
+                  }
+                }
+              >
+                $100.00
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#666",
+                    "fontStyle": "italic",
+                  }
+                }
+              >
+                too expensive
+              </Text>
+            </TouchableOpacity>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "column",
+                  "justifyContent": "center",
+                  "marginRight": 10,
+                  "width": 138,
+                },
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+              ]
+            }
+          >
+            <TouchableOpacity
+              activeOpacity={0.7}
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "backgroundColor": "#FFF",
+                  "borderRadius": 6,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 15,
+                  "paddingVertical": 15,
+                  "width": 140,
+                }
+              }
+            >
+              <Text
+                ellipsizeMode="tail"
+                numberOfLines={1}
+                style={
+                  Object {
+                    "fontSize": 17,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Shoes
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "marginVertical": 4,
+                  }
+                }
+              >
+                $10.00
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#666",
+                    "fontStyle": "italic",
+                  }
+                }
+              >
+                within reach!
+              </Text>
+            </TouchableOpacity>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "column",
+                  "justifyContent": "center",
+                  "marginRight": 10,
+                  "width": 138,
+                },
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+              ]
+            }
+          >
+            <TouchableOpacity
+              activeOpacity={0.7}
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "backgroundColor": "#FFF",
+                  "borderRadius": 6,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 15,
+                  "paddingVertical": 15,
+                  "width": 140,
+                }
+              }
+            >
+              <Text
+                ellipsizeMode="tail"
+                numberOfLines={1}
+                style={
+                  Object {
+                    "fontSize": 17,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Shoes
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "marginVertical": 4,
+                  }
+                }
+              >
+                $20.00
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#666",
+                    "fontStyle": "italic",
+                  }
+                }
+              >
+                within reach!
+              </Text>
+            </TouchableOpacity>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "column",
+                  "justifyContent": "center",
+                  "marginRight": 10,
+                  "width": 138,
+                },
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+              ]
+            }
+          >
+            <TouchableOpacity
+              activeOpacity={0.7}
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "backgroundColor": "#FFF",
+                  "borderRadius": 6,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 15,
+                  "paddingVertical": 15,
+                  "width": 140,
+                }
+              }
+            >
+              <Text
+                ellipsizeMode="tail"
+                numberOfLines={1}
+                style={
+                  Object {
+                    "fontSize": 17,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Electric scooter by Movio
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "marginVertical": 4,
+                  }
+                }
+              >
+                $53.00
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#666",
+                    "fontStyle": "italic",
+                  }
+                }
+              >
+                too expensive
+              </Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+      </View>
+    </ScrollView>
+  </View>
+</View>
+`;

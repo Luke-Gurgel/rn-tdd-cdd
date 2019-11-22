@@ -1,0 +1,1 @@
+./node_modules/.bin/rnstl --searchDir ./src --pattern '**/stories.tsx' --outputFile ./__storybook__/story-loader.js

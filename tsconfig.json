@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": false,
+    "resolveJsonModule": true,
+    "jsx": "react-native",
+    "lib": ["esnext"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
+    "baseUrl": "./",
+    "paths": {
+      "src": ["./src"],
+      "__storybook__": ["./__storybook__"]
+    }
+  },
+  "include": ["src/**/*", "__e2e__/**/*", "./App.tsx"],
+  "exclude": ["node_modules"]
+}
