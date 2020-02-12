@@ -28,7 +28,7 @@ I built this project for learning purposes, since I wanted to become more famili
 
 The idea was to develop this project by following a TDD and CDD approach using `jest`, `cavy` and `storybook`. So the workflow looked something like this: 
 
-1. Understand the "business rules" (lol)
+1. Understand the business rules
 2. Break them down into small pieces of work
 3. Focus on building nested components first:
     - write component/unit tests with `jest`
